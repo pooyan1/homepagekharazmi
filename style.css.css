@@ -172,3 +172,72 @@ body {
     padding: 20px;
 }
 
+.nmad {
+    position: absolute;
+    top: 89%; /* باعث می‌شود که عکس دقیقاً زیر منو قرار بگیرد */
+    right: 20px;
+    width: 25%;
+    height: auto; /* ارتفاع خود به خود تنظیم شود */
+    z-index: -1; /* برای اینکه عکس پشت منو و آیتم‌های آن قرار گیرد */
+    border-radius: 0.8cm; /* کرو کردن تصویر به شکل دایره */
+    object-fit: cover; /* جلوگیری از تغییر نسبت تصویر */
+    
+}
+
+.nmad1 {
+    position: absolute;
+    top: 155%; /* باعث می‌شود که عکس دقیقاً زیر منو قرار بگیرد */
+    right: 20px;
+    width: 25%;
+    height: auto; /* ارتفاع خود به خود تنظیم شود */
+    z-index: -1; /* برای اینکه عکس پشت منو و آیتم‌های آن قرار گیرد */
+    border-radius: 0.8cm; /* کرو کردن تصویر به شکل دایره */
+    object-fit: cover; /* جلوگیری از تغییر نسبت تصویر */
+}
+
+/* ریسپانسیو برای منوی ناوبری */
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+}
+
+/* ریسپانسیو برای زیرمنو */
+@media (max-width: 767px) {
+    .submenu-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* ریسپانسیو برای جدول */
+@media (max-width: 767px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* ریسپانسیو برای تصاویر */
+@media (max-width: 767px) {
+    .btc-trading,
+    .nmad,
+    .nmad1 {
+        width: 100%;
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+}

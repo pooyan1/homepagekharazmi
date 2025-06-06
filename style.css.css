@@ -1,0 +1,267 @@
+/* استایل برای منوی ناوبری */
+.navbar {
+    list-style-type: none;
+    padding-top: 0px;
+    margin: 5px;
+    display: flex;
+    background-color: #f0a824;
+    justify-content: space-around;
+    direction: rtl;
+}
+
+.navbar li {
+    padding: 22px 15px;
+}
+
+.navbar li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #f0ad30;
+    color: #000000;
+}
+
+/* استایل برای بخش زیر منو */
+.submenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.submenu-item {
+    background-color: #333;
+    color: rgb(16, 226, 156);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+    transition: background-color 5s ease;
+}
+
+.submenu-item:hover {
+    background-color: #309b72;
+}
+
+/* پس‌زمینه برای صفحه */
+body {
+    background-color: #f4cf27;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* استایل برای بخش‌های محتوا */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* حداقل ارتفاع برای صفحه */
+}
+
+.content-wrapper {
+    flex-grow: 1; /* جدول را پایین صفحه قرار می‌دهد */
+}
+
+/* استایل جدول */
+table {
+    border: 1px solid rgb(3, 3, 3);
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    direction: ltr;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: #e67708;
+}
+
+
+a  {
+    text-align: right;
+    background-color: #f0ab21;
+    color: white;
+    margin-right: 50PX;
+}
+
+
+
+.PPP {
+    margin-right: 350PX;
+}
+
+.d-n{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #f0ab21;
+    justify-content: space-around;
+    direction: rtl;
+}
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+.btc-trading {
+    position: absolute;
+    top: 48%; /* باعث می‌شود که عکس دقیقاً زیر منو قرار بگیرد */
+    right: 20px;
+    width: 48%;
+    height: auto; /* ارتفاع خود به خود تنظیم شود */
+    z-index: -1; /* برای اینکه عکس پشت منو و آیتم‌های آن قرار گیرد */
+    border-radius: 0.8cm; /* کرو کردن تصویر به شکل دایره */
+    object-fit: cover; /* جلوگیری از تغییر نسبت تصویر */
+    
+}
+
+.eth-trading {
+    position: absolute;
+    top: 115%; /* باعث می‌شود که عکس دقیقاً زیر منو قرار بگیرد */
+    right: 20px;
+    width: 48%;
+    height: auto; /* ارتفاع خود به خود تنظیم شود */
+    z-index: -1; /* برای اینکه عکس پشت منو و آیتم‌های آن قرار گیرد */
+    border-radius: 0.8cm; /* کرو کردن تصویر به شکل دایره */
+    object-fit: cover; /* جلوگیری از تغییر نسبت تصویر */
+    
+}
+
+.top-coin {
+    position: absolute;
+    top: 182%; /* باعث می‌شود که عکس دقیقاً زیر منو قرار بگیرد */
+    right: 20px;
+    width: 48%;
+    height: auto; /* ارتفاع خود به خود تنظیم شود */
+    z-index: -1; /* برای اینکه عکس پشت منو و آیتم‌های آن قرار گیرد */
+    border-radius: 0.8cm; /* کرو کردن تصویر به شکل دایره */
+    object-fit: cover; /* جلوگیری از تغییر نسبت تصویر */
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(black.jpg);
+    margin: 0;
+    padding: 20px;
+}
+
+.nmad {
+    position: absolute;
+    top: 89%; /* باعث می‌شود که عکس دقیقاً زیر منو قرار بگیرد */
+    right: 20px;
+    width: 25%;
+    height: auto; /* ارتفاع خود به خود تنظیم شود */
+    z-index: -1; /* برای اینکه عکس پشت منو و آیتم‌های آن قرار گیرد */
+    border-radius: 0.8cm; /* کرو کردن تصویر به شکل دایره */
+    object-fit: cover; /* جلوگیری از تغییر نسبت تصویر */
+    
+}
+
+.nmad1 {
+    position: absolute;
+    top: 155%; /* باعث می‌شود که عکس دقیقاً زیر منو قرار بگیرد */
+    right: 20px;
+    width: 25%;
+    height: auto; /* ارتفاع خود به خود تنظیم شود */
+    z-index: -1; /* برای اینکه عکس پشت منو و آیتم‌های آن قرار گیرد */
+    border-radius: 0.8cm; /* کرو کردن تصویر به شکل دایره */
+    object-fit: cover; /* جلوگیری از تغییر نسبت تصویر */
+}
+
+/* ریسپانسیو برای منوی ناوبری */
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+}
+
+/* ریسپانسیو برای زیرمنو */
+@media (max-width: 767px) {
+    .submenu-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* ریسپانسیو برای جدول */
+@media (max-width: 767px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+/* ریسپانسیو برای تصاویر */
+@media (max-width: 767px) {
+    .btc-trading,
+    .nmad,
+    .nmad1 {
+        width: 100%;
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+}
